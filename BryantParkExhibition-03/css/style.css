@@ -1,0 +1,71 @@
+
+.bgimage {
+    background-image: url(../images/crystal_palace_01.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 1000px;
+    background-color: rgb(232,93,12);
+}
+
+#title {
+    color: black;
+    font-family: "Quattrocento", serif;
+    font-size: 130px;
+    color: #e85d0c;
+    text-align: right;
+    margin-right: 30px;
+    text-shadow: 4px 4px 8px black;
+}
+
+.subtitle {
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 6
+        00;
+    letter-spacing: 2px;
+    text-align: right;
+    margin-right: 30px;
+}
+
+.navbar {
+    background-color: transparent;
+    border: none;
+}
+
+.btn-md {
+    margin-top: 20px;
+    margin-right: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.centernavbar {
+    text-align: center;
+}
+
+.center {
+    width: 80%;
+    margin: auto;
+}
+
+p {
+    text-align: justify;
+}
+
+.rowTopBuffer {
+    padding-top: 25px;
+}
+
+.colTopBuffer {
+    padding-top: 63px;
+}
+
+/*The query below means: do this if the screen is less than or equal to 990px*/
+@media only screen and (max-width: 990px) {
+    .colTopBuffer {
+        padding-top: 0px;
+    }  
+}
