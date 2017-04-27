@@ -1,22 +1,72 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="collab.css" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet">
-        <style>
-        body{
-            font-family: Quattrocento, serif;
-            font-size: 36px;
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bryant Park</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet">
+    <style>
+        body {
+            background-color: #e85d0c; 
         }
-        </style>
-        <title>NYC Crystal Palace</title>
-    </head>
-    <body>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/New_York_Crystal_Palace.jpg"/>
-        <script src="js/jquery.js"></script>
-        <script src="js/bootstrap.js"></script>
-    </body>
+    </style>
+</head>
+    
+<body>
+    
+    <header class="bgimage">
+
+            <nav class="navbar navbar-default"> <!-- Open navigation -->
+                
+                <div class="navbar-header"> <!-- Begin hamburger -->
+                    <button type="button" class="navbar-toggle" data-target="#mainNavbar" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>  <!-- End hamburger -->
+                
+        <div class="navbar-collapse collapse" id="mainNavbar">
+            <ul class="nav navbar-nav"> <!-- Begin list of button links -->
+                <li class="active"><a href="index.html" class="btn-md btn-custom">Home</a></li>
+                <li><a href="crystalPalace.html"  class="btn-md btn-custom">Crystal Palace</a></li>
+                <li><a href="lattingObservatory.html"  class="btn-md btn-custom">Latting Observatory</a></li>
+            </ul> <!-- End list of button links -->
+        
+        </div>
+            </nav>  <!-- Close navigation -->
+                <div>
+                    <h1  id="title">Bryant Park</h1>
+                    <h2 class="subtitle">Exhibition of the Industry of All Nations<br>1851</h2>
+                </div>
+    </header> <!-- Close header -->
+
+    <footer>
+        <nav>
+            <div id="nav">
+                <ul> <!-- Begin list of links -->
+                    
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="crystalPalace.html">CRYSTAL PALACE</a></li>
+                <li><a href="lattingObservatory.html">LATTING OBSERVATORY</a></li>
+                    
+            </ul> <!-- End list of links -->
+            
+            </div>
+        </nav>
+        <p>
+            "Oil-Color" plate by George Baxter, London, September 1853. "Gems of the Crystal Palace, No. 1, The Exterior." London: George Baxter, 1854. Prints and Photographs Division, Library of Congress (143A)
+        </p>
+    </footer>
+
+<!-- Place these two .js files at the END just before closing body so they load last -->
+<!-- If you are using bootstrap you must have jquery.js BEFORE bootstrap.js-->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/my-jquery.js"></script>
+</body>
+   
 </html>

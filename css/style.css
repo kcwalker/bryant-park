@@ -1,0 +1,140 @@
+/* css for Bryant Park website */
+
+.bgimage {
+    background-image: url(../images/crystal_palace_01.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 1000px;
+    background-color: #e85d0c;
+}
+
+#title {
+    color: black;
+    font-family: "Quattrocento", serif;
+    font-size: 130px;
+    color: #e85d0c;
+    text-align: right;
+    margin-right: 30px;
+    text-shadow: 4px 4px 8px black;
+}
+
+.subtitle {
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 500;
+    color:black;
+    letter-spacing: 2px;
+    text-align: right;
+    margin-right: 30px;
+}
+
+.navbar {
+    background-color: transparent;
+    border: none;
+}
+
+
+.btn-md {
+    margin-top: 20px;
+    margin-right: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 2px;
+    background-color: #e85d0c;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: "Quattrocento", serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #e85d0c;
+    text-align: left;
+}
+.center {
+    width: 70%;
+    margin: auto;
+}
+
+.main {
+    font-size: 20px;
+    font-family: "TimesNewRoman", serif;
+    text-align: justify;
+}
+
+.wikilink {
+    font-size: 15px;
+    text-decoration: none;
+}
+.latburning {
+    text-align: left; 
+    padding-bottom: 10px;
+}
+
+.wrappedimage {
+    float: left; 
+    margin: 10px 20px -10px 0px;
+}
+
+/* caption tag */
+figcaption {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.rowTopBuffer {
+    padding-top: 25px;
+}
+
+.colTopBuffer {
+    padding-top: 70px;
+}
+
+
+/* footer section */
+footer {
+    width: 100%;
+    padding: 20px 0px;
+    background-color: #e85d0c;
+    color: #fff;
+}
+
+
+
+footer p {
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 0px 0px;
+}
+
+
+/* navigation section */
+nav {
+    text-align: center;
+}
+
+#nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+#nav ul li a {
+    color: #fff;
+    letter-spacing: 3px;
+    margin: 3px 30px;
+    font-size: 18px;
+    
+}
+
+
+/*The query below means: do this if the screen is less than or equal to 990px*/
+@media only screen and (max-width: 990px) {
+    .colTopBuffer {
+        padding-top: 0px;
+    }  
+}
